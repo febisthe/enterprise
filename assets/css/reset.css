@@ -10,4 +10,4 @@ a { text-decoration:none }
 table { border-collapse:collapse; border-spacing:0 } 
 ul { list-style: none; } 
 
-body { height: 100%; overflow-x: hidden; background: #fff; color: #000; font-family: 'Noto Sans KR', 'Archivo', sans-serif; font-weight: 400; font-size: 16px; } 
+body { height: 100%; background: #fff; color: #000; font-family: 'Noto Sans KR', 'Archivo', sans-serif; font-weight: 400; font-size: 16px; min-width: 1300px; } 

@@ -1,6 +1,6 @@
 .blind { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); } 
 .dimmed { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0, 0, 0, .6); opacity: 0; pointer-events: none; } 
-.wrapper { position: relative; } 
+.wrapper { position: relative;} 
 .inner { padding: 0 100px; } 
 .dark { background: #000; } 
 .headline { font-size: 72px; font-weight: 700; line-height: 1.28; white-space: nowrap; color: #000; transition: color .5s; } 
