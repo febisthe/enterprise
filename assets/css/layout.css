@@ -1,0 +1,40 @@
+@import '../css/reset.css';
+@import '../css/common.css';
+@import '../css/font.css';
+
+
+/* header */
+#header { position: fixed; top: 0; left: 0; width: 100%; color: #fff; transform: translateY(-100%); transition: transform .3s, color .5s,filter .3s; z-index: 10; } 
+#header.on { transform: translateY(0); } 
+#header.black { filter: invert(1); } 
+.dark #header.black { filter: invert(0); } 
+#header .inner { display: flex; align-items: center; justify-content: space-between; padding-top: 17px; padding-bottom: 17px; } 
+#header .logo { filter: invert(1); } 
+#header .logo.on { filter: invert(0); } 
+#header .logo a { display: block; width: 100px; } 
+#header .list-gnb { display: flex; } 
+#header .list-gnb.on { filter: invert(1); } 
+#header .list-gnb .item { position: relative; } 
+#header .list-gnb .item > a { display: block; padding: 23px 25px; font-size: 18px; font-weight: 600; line-height: 1; } 
+#header .list-gnb .item .lang { display: flex; align-items: center; gap: 5px; padding: 20px 0 18px 25px; cursor: pointer; } 
+#header .list-lang { position: absolute; right: 0; top: 53px; padding: 3px 0; text-align: center; background-color: #000; border: 1px solid #5a5a5a; border-radius: 6px; transition: all .3s; opacity: 0; visibility: hidden; } 
+#header .list-lang.on { opacity: 1; visibility: visible; } 
+#header .list-lang .item > a { display: block; padding: 6px 14px 2px 13px; font-size: 18px; line-height: 1.33; font-weight: 600; opacity: .2; } 
+#header .list-lang .item .on { opacity: 1; } 
+
+
+/* footer */
+#footer { position: relative; background: #000; color: #fff; } 
+#footer .inner { display: flex; align-items: center; justify-content: space-between; padding-top: 55px; padding-bottom: 55px; } 
+#footer .addr { display: flex; flex-direction: column; gap: 10px; font-size: 14px; font-weight: 400; line-height: 1; } 
+#footer .footer-logo { display: block; width: 193px; height: 42px; } 
+
+
+/* btn-top */
+#main { position: relative; } 
+#topBtn { opacity:0; transition:all 0.3s}
+#topBtn.on { opacity:1; } 
+#topBtn.on2 { opacity: 1; } 
+#topBtn a { position: fixed; bottom: 40px; right: 100px; width: 50px; height: 50px; background: #000 url(../images/ico_top.svg) no-repeat center; } 
+#topBtn .fixed { position: absolute; right: 100px; bottom:250px; } 
+#topBtn.hide { opacity: 0; } 

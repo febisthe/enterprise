@@ -1,0 +1,21 @@
+.blind { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); } 
+.dimmed { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0, 0, 0, .6); opacity: 0; pointer-events: none; } 
+.wrapper { position: relative; } 
+.inner { padding: 0 100px; } 
+.dark { background: #000; } 
+.headline { font-size: 72px; font-weight: 700; line-height: 1.28; white-space: nowrap; color: #000; transition: color .5s; } 
+.last-text { padding-left: 120px; font-size: 54px; font-weight: 700; line-height: 1.3; } 
+
+/* 카드섹션 */
+.card-list { display: flex; font-weight: 700; } 
+.card-list .item { position: relative; display: flex; flex-direction: column; justify-content: center; width: 400px; height: 540px; margin-left: 40px; padding: 34px; color: #fff; border-radius: 20px; border: 2px solid #fff; overflow: hidden; background: #000; } 
+.card-list .item .title-box { position: relative; display: flex; width: 100%; padding: 5px 0; } 
+.card-list .item .title-box .title { font-size: 50px; line-height: 1.24; } 
+.card-list .item .title-box .caption { height: 100%; position: absolute; right: 0; top: 12px; font-size: 30px; line-height: .67; color: #fff; text-align: right; font-family: Archivo}
+.card-list .item .img-box { width: 100%; height: 100%; margin-top: 20px; } 
+.card-list .item .desc { font-size: 14px; display: flex; align-items: flex-start; width: 100%; height: 100%; } 
+.card-list .item .info-box { position: relative; display: flex; align-items: flex-end; justify-content: space-between; width: 100%; height: 100%; } 
+.card-list .item .info-box .title { font-size: 16px; font-weight: 600; } 
+.card-list .item .info-box .name { font-size: 14px; line-height: 1.63; } 
+.card-list .item .info-box .icon-minus { width: 40px; height: 40px;} 
+
