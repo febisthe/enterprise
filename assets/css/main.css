@@ -194,7 +194,7 @@
 .sc-finance .item.colorful { position: relative; z-index: 1; } 
 .sc-finance .item.colorful .blur { position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; content: ''; opacity: 1; backdrop-filter: blur(30px); transition: opacity .3s; } 
 .sc-finance .item.last { font-size: 24px; line-height: 1.6; } 
-.sc-finance .group-down { text-align: center; margin-top: 100px; position: absolute; bottom: 0; left: 50%; visibility: hidden; opacity: 0; transition: .3s; transform: translateX(-50%); } 
+.sc-finance .group-down { text-align: center; margin-top: 100px; position: absolute; bottom: 30px; left: 50%; visibility: hidden; opacity: 0; transition: .3s; transform: translateX(-50%); } 
 .sc-finance.on .group-down { visibility: visible; opacity: 1; } 
 .sc-finance .group-down .arrow-area { display: flex; } 
 .sc-finance .group-down .arrow-area i { display: block; width: 27px; height: 27px; transform: rotate(45deg); border-style: solid; border-width: 6px; border-width: 8px; border-left: 0; border-bottom: 0; margin-right: -6px; animation: mouse-scroll 1s infinite alternate; } 
